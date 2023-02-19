@@ -2,7 +2,7 @@
 
 intro
 - can build HA systems
--operative even failures
+- operative even failures
 - scalability
 - load balancing
 - middleware with database clients and postgreSQL
@@ -23,7 +23,7 @@ Configure pgpool with streaming replication
 - easy to setup and reliable
 
 hands on (watch video - https://www.youtube.com/watch?v=qpxKlH7DBjU&list=PLBrWqg4Ny6vVwwrxjgEtJgdreMVbWkBz0)
--use pg_basebackup for create replication
+- use pg_basebackup for create replication
 
 Failover recap
 - pgpoool detects postgres master is down

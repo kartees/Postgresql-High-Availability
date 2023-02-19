@@ -9,18 +9,18 @@ intro
 - asynchronous by default
 
 on Asynchronous
-    -pros:
-        - fast response time
-    -cons
-        - data read on replicate may not be fresh
-        - data may be lost in case of failover
+pros:
+- fast response time
+cons
+- data read on replicate may not be fresh
+- data may be lost in case of failover
 
 on Synchronous
-    -pros:
-        - suitable for failover
-        - daa read on replica will be fresh
-    -cons:
-        - longer response time
+pros:
+- suitable for failover
+- daa read on replica will be fresh
+cons:
+- longer response time
 
 - need to be careful when choosing sync and async
 - add replication server on the pg_hba.conf
