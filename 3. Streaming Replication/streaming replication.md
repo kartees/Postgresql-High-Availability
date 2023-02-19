@@ -9,17 +9,17 @@ intro
 - asynchronous by default
 
 on Asynchronous
-pros:
+- pros:
 - fast response time
-cons
+- cons
 - data read on replicate may not be fresh
 - data may be lost in case of failover
 
 on Synchronous
-pros:
+- pros:
 - suitable for failover
 - daa read on replica will be fresh
-cons:
+- cons:
 - longer response time
 
 - need to be careful when choosing sync and async
